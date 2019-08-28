@@ -1,0 +1,15 @@
+.containerImg {
+  background-color: #fff;
+}
+
+.containerImg img {
+  max-width: 1520px;
+}
+
+.dot{
+  width:15px;
+  height: 15px;
+}
+
+.arrowRight svg{margin-right:20px;}
+.arrowLeft svg{margin-left:20px;}

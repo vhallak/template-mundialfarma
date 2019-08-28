@@ -1,0 +1,197 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deals1",
+      "flex-layout.col#deals2",
+      "flex-layout.col#deals3",
+      "flex-layout.col#deals4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    }
+  },
+// Espaço 1
+  "flex-layout.col#deals1":{
+    "children":[
+      "flex-layout.row#deals1"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#deals1":{
+    "children":[
+      "flex-layout.col#deals1-img",
+      "flex-layout.col#deals1-text"
+    ]
+  },
+  "flex-layout.col#deals1-img":{
+    "children":[
+      "image#deals1"
+    ]
+  },
+  "image#deals1": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-shipping___54d6786267049088fa665cc1a6831c98.png",
+      "maxHeight": "51px"
+    }
+  },
+  "flex-layout.col#deals1-text":{
+    "children":[
+      "rich-text#deals1"
+    ]
+  },
+  "rich-text#deals1":{
+    "props":{
+      "text":"Entrega para todo o Brasil",
+      "blockClass":"deals"
+    }
+  },
+   "flex-layout.col#deals1":{
+    "children":[
+      "flex-layout.row#deals1"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#deals1":{
+    "children":[
+      "flex-layout.col#deals1-img",
+      "flex-layout.col#deals1-text"
+    ]
+  },
+  "flex-layout.col#deals1-img":{
+    "children":[
+      "image#deals1"
+    ]
+  },
+  "image#deals1": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-shipping___54d6786267049088fa665cc1a6831c98.png",
+      "maxHeight": "51px"
+    }
+  },
+  "flex-layout.col#deals1-text":{
+    "children":[
+      "rich-text#deals1"
+    ]
+  },
+  "rich-text#deals1":{
+    "props":{
+      "text":"Entrega para todo o Brasil",
+      "blockClass":"deals"
+    }
+  },
+// Espaço 2
+  "flex-layout.col#deals2":{
+    "children":[
+      "flex-layout.row#deals2"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#deals2":{
+    "children":[
+      "flex-layout.col#deals2-img",
+      "flex-layout.col#deals2-text"
+    ]
+  },
+  "flex-layout.col#deals2-img":{
+    "children":[
+      "image#deals2"
+    ]
+  },
+  "image#deals2": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-wallet___95380df7f8e412af43a3f8de7e48c80a.png",
+      "maxHeight": "51px"
+    }
+  },
+  "flex-layout.col#deals2-text":{
+    "children":[
+      "rich-text#deals2"
+    ]
+  },
+  "rich-text#deals2":{
+    "props":{
+      "text":"Parcele em até 3x sem juros",
+      "blockClass":"deals"
+    }
+  },
+// Espaço 3
+  "flex-layout.col#deals3":{
+    "children":[
+      "flex-layout.row#deals3"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#deals3":{
+    "children":[
+      "flex-layout.col#deals3-img",
+      "flex-layout.col#deals3-text"
+    ]
+  },
+  "flex-layout.col#deals3-img":{
+    "children":[
+      "image#deals3"
+    ]
+  },
+  "image#deals3": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-attendance___f00372770d7e00fc9c86a8ec54196558.png",
+      "maxHeight": "51px"
+    }
+  },
+  "flex-layout.col#deals3-text":{
+    "children":[
+      "rich-text#deals3"
+    ]
+  },
+  "rich-text#deals3":{
+    "props":{
+      "text":"Atendimento (31) 98881-7737",
+      "blockClass":"deals"
+    }
+  },
+  // Espaço 4
+  "flex-layout.col#deals4":{
+    "children":[
+      "flex-layout.row#deals4"
+    ],
+    "props":{
+      "blockClass": "deals"
+    }
+  },
+  "flex-layout.row#deals4":{
+    "children":[
+      "flex-layout.col#deals4-img",
+      "flex-layout.col#deals4-text"
+    ]
+  },
+  "flex-layout.col#deals4-img":{
+    "children":[
+      "image#deals4"
+    ]
+  },
+  "image#deals4": {
+    "props": {
+      "src": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-security___11eee6d903642579568f1dd38860f6c5.png",
+      "maxHeight": "51px"
+    }
+  },
+  "flex-layout.col#deals4-text":{
+    "children":[
+      "rich-text#deals4"
+    ]
+  },
+  "rich-text#deals4":{
+    "props":{
+      "text":"Site 100% seguro",
+      "blockClass":"deals"
+    }
+  }
+}

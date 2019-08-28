@@ -1,0 +1,21 @@
+.row--menu-row {
+  padding-right: 24px;
+}
+
+.row--menu-row .rowContainer {
+  align-items: flex-start;
+}
+.row--payment-methods {
+  padding-top: 16px;
+}
+
+.footerLayout{
+  background: #f4f4f4;
+}
+.row--imgVtex a{display: block;margin:0 auto;}
+
+.footerLayout .row{background: #f4f4f4;}
+
+@media only screen and (min-width: 640px) {
+  .footerLayout{padding-top:20px;}
+}

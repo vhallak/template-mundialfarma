@@ -1,0 +1,38 @@
+.element{
+    border: 1px solid #efefef;
+    padding-bottom: 0;
+}
+
+.priceContainer{
+    padding-bottom: 0;
+}
+
+.buyButton button{
+    width:96%;
+    border-radius: 0;
+    transition: 0.2s;
+}
+
+.imageNormal{
+    padding:1em;
+    box-sizing: border-box;
+}
+
+.nameContainer{
+    text-align: left;
+    padding-top:0;
+    max-height: 82px;
+    justify-content: left;
+    padding:0 1.5em;
+}
+
+.containerInline{
+    font-size: 12px;
+}
+.containerInline .element{
+    border:0;
+    border-bottom:1px dashed #f4f4f4;
+}
+.containerInline .imageContainer img{
+    padding: 0;
+}

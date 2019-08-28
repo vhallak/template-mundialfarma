@@ -1,0 +1,178 @@
+{
+  "header": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header.full": {
+    "blocks": [
+      "header-layout.desktop",
+      "header-layout.mobile"
+    ]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#contact",
+      "header-row#logobar",
+      "header-row#menu"
+    ]
+  },
+  
+  "header-row#contact": {
+    "children": [
+      "rich-text#televendas",
+      "rich-text#telefone",
+      "header-spacer",
+      "login"
+    ],
+    "props":{
+      "inverted":true      
+    }
+  },
+  "header-row#logobar": {
+    "children": [
+      "logo#desktop",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "minicart"
+    ],
+    "props":{
+      "sticky": true,
+      "blockClass":"menu-sticky"
+    }
+  },
+
+"search-bar":{
+  "props":{
+    "iconClasses":"icon-default"
+  }
+},
+
+  "header-row#menu": {
+    "children": [
+      "vtex.menu@2.x:menu#category-menu"
+    ],
+    "props": {
+      "blockClass":"menu-mundial"
+      // "menuDisposition":"center"
+    }
+  },
+
+  "rich-text#televendas": {
+    "props": {
+      "text": "![televendas](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-phone___92b9b89b646dbd4a277c0313c04169b7.png) Televendas (31) 3581-7737",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "textColor": "c-on-base--inverted",
+      "font": "t-small",
+      "blockClass":"padding-1 icon-verticalAlign"
+    }
+  },
+ 
+  "rich-text#telefone": {
+    "props": {
+      "text": "![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp___647d4f5d67761857f507884104d950d3.png) (31) 98881-7737",
+      "textAlignment": "LEFT",
+      "textPosition": "CENTER",
+      "textColor": "c-on-base--inverted",
+      "font": "t-small",
+      "blockClass":"icon-verticalAlign"
+    }
+  }, 
+
+  
+
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___fa69a6c246a6d930a37ee1b49ed72dbe.png",
+      "width": "180"
+    }
+  },
+
+  "minicart": {
+    "blocks": [
+      "product-summary"
+    ],
+    "props": {
+      "type": "popup",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "Carrinho vazio",
+      "labelButtonFinishShopping": "Ir para o checkout",
+      "iconLabel":"CARRINHO",
+      "showTotalItemsQty":true,
+      "enableQuantitySelector": true,
+      "maxQuantity": 10,
+      "labelClasses": "label-minicart tst-minicart",
+      "iconClasses":"bg-action-primary white-90 miniCart-icon"
+    }
+  },
+  
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "LOGIN",
+      "accessCodeTitle": "Receber código",
+      "emailPraceholder": "E-mail",
+      "passwordPlaceholder": "Senha",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  
+
+  "header-layout.mobile": {
+    "children": [
+      "header-row#1-mobile",
+      "header-row#search-bar"
+    ]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "drawer": {
+    "children": [
+      "menu#drawer"
+    ]
+  },
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#medicamentos",
+      "menu-item#oncologicos",
+      "menu-item#fertilidade",
+      "menu-item#materiais"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/logo___fa69a6c246a6d930a37ee1b49ed72dbe.png",
+      "width": "70"
+    }
+  },
+  // Header 2
+  "header-row#search-bar":{
+    "children":[
+      "search-bar"      
+    ]
+  }
+}

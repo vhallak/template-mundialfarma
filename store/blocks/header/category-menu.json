@@ -1,0 +1,120 @@
+{
+  "vtex.menu@2.x:menu#category-menu": {
+    "children": [
+      "menu-item#medicamentos",
+      "menu-item#oncologicos",
+      "menu-item#fertilidade",
+      "menu-item#materiais"
+    ]
+  },
+  "menu-item#medicamentos":{
+      "props": {
+        "id": "menu-item-category-medicamentos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/medicamentos-especiais/",
+          "noFollow": true,
+          "tagTitle": "Medicamentos especiais",
+          "text": "Medicamentos especiais"
+        }
+      }    
+  },
+  "menu-item#oncologicos":{
+      "props": {
+        "id": "menu-item-category-medicamentos",
+        "type": "custom",
+        "iconId": null,
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "/oncologicos/",
+          "noFollow": true,
+          "tagTitle": "Oncologicos",
+          "text": "Oncologicos"
+        }
+      }    
+  },
+  "menu-item#fertilidade":{
+    "props": {
+      "id": "menu-item-category-fertilidade",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fertilidade/",
+        "noFollow": true,
+        "tagTitle": "Fertilidade",
+        "text": "Fertilidade"
+      }
+    }    
+},
+  "menu-item#materiais": {
+    "props": {
+      "id": "menu-item-materiais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "",
+        "noFollow": true,
+        "tagTitle": "Materiais",
+        "text": "Materiais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#materiais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#materiais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#materiais"
+    ]
+  },
+  "vtex.menu@2.x:menu#materiais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#materiais-cateteres",
+      "menu-item#materiais-pediatrico"
+    ]
+  },
+  "menu-item#materiais-cateteres": {
+    "props": {
+      "id": "menu-item-materiais-cateteres",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais/cateteres",
+        "noFollow": true,
+        "tagTitle": "Cateteres",
+        "text": "Cateteres"
+      }
+    }
+  },
+  "menu-item#materiais-pediatrico": {
+    "props": {
+      "id": "menu-item-materiais-pediatrico",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais/pediatrico",
+        "noFollow": true,
+        "tagTitle": "Pediátrico",
+        "text": "Pediátrico"
+      }
+    }
+  }    
+}

@@ -1,0 +1,13 @@
+.filter__container--title{border-bottom:2px solid #00607f}
+.container .filters h5{text-transform: uppercase;color:#00607f;}
+.orderByButton{
+    padding: 8px 15px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 300;
+    color: #666666;
+    font-family: inherit;
+    background: #f7f7f7;
+    border: 1px solid #dddddd;
+    border-radius: 3px;    
+}

@@ -1,0 +1,264 @@
+.notificationBarContainer {
+  background-color: #E6F1E6;
+  color: #03034E;
+  font-weight: 700;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+.searchBarContainer {
+  max-width: 700px;
+}
+
+.imageElement--bannerMiddle{max-width: 100% !important;}
+
+.searchBarContainer input{
+  padding: 13px 5px 13px 10px;
+  color:#8f8f8f;
+  line-height:1.42857;
+  height: auto; 
+}
+
+.infoCardContainer--info-card-home {
+  max-width: 1520px;
+  margin: 0 auto;
+  background-color: #E6F1E6;
+  padding: 0px;
+}
+
+.newsletter {
+  background-color: #00607f;
+  width:100%;
+  text-align: center;
+}
+
+.newsletter .container {
+  padding: 60px 10px;
+}
+
+.label {
+  color: #fff;
+  font-size: 26px;
+}
+
+.inputGroup {
+  padding-bottom: 4px;
+  display: flex;
+  color: #fff;
+  border:0;
+}
+
+.inputGroup .items-stretch{
+  border:0;
+}
+
+.inputGroup input {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  padding-left: 0px;
+  border-radius:0;
+}
+
+.inputGroup button {
+  background-color: #00abb5;
+  color: #fff;
+  border: none;
+  margin-left: -25px;
+  border-radius:0;
+}
+
+.buttonContainer {
+  padding-top: 0px;
+}
+
+.imageElement--storePrint {
+  max-height: 300px;
+  margin-bottom: 20px;
+}
+
+.sellingPriceContainer {
+  margin-bottom: 20px;
+}
+
+.productBrand{
+  color:#005f7f;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;  
+}
+
+.sellingPriceValue{
+  font-size: 27px;
+  font-weight: 700;
+  color: #00607f;  
+}
+
+.installmentsPrice{
+  padding: 2px 0;
+  text-align: left;
+  font-size: 16px;
+  color:#474747;  
+  text-transform: lowercase;
+}
+
+.newsletter .confirmationTitle,.newsletter .confirmationText{
+  color:#fff;
+}
+
+.newsletter .inputGroup label div{
+  border:0;
+}
+
+.listPriceLabel, .listPriceValue{
+  padding-left:0;
+}
+
+.installmentsPrice, .savingPrice{
+  padding-left: .25rem;
+}
+.productDescriptionContainer{margin:20px 0;}
+.productDescriptionContainer h2{display:none;}
+
+/* Especificações */
+.specificationsTableContainer{padding: 0;}
+.specificationsTableContainer .specificationsTitle{display:none;}
+.specificationsTableContainer div{height: auto !important;}
+.specificationsTable{width:auto;}
+.specificationsTable thead{display:none}
+.specificationsTable tbody tr td{width:auto;border:0;padding:5px 0;font-size:14px;color:#8a8a8a}
+.specificationsTable tbody tr td:first-child{color:#00607f;font-weight: bold;}
+.specificationsTable tbody tr:last-child td:first-child{display:none;}
+.specificationsTable tbody tr:nth-child(1) td:first-child:before{
+  padding-left:30px;
+  content:"";
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-principio___57695b9f566d6ef78b056be008ec831c.jpg) no-repeat left center scroll transparent;
+}
+.specificationsTable tbody tr:nth-child(2) td:first-child:before{
+  padding-left:30px;
+  content:"";
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-conservacao___86207b8018def27d15712ef2edb6c076.jpg) no-repeat left center scroll transparent;
+}
+.specificationsTable tbody tr:nth-child(3) td:first-child:before{
+  padding-left:30px;
+  content:"";
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-laboratorio___78f498c66acddb90be728d757cd91dcb.jpg) no-repeat left center scroll transparent;
+}
+.specificationsTable tbody tr:nth-child(4) td:first-child:before{
+  padding-left:30px;
+  content:"";
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-conteudo___a2d6525fed453f2b02b244743146fe45.jpg) no-repeat left center scroll transparent;
+}
+.specificationsTable tbody tr:nth-child(5) td:first-child:before{
+  padding-left:30px;
+  content:"";
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-uso___c749ae4bc162f14373a9f93adcab8a00.jpg) no-repeat left center scroll transparent;
+}
+.specificationsTable tbody tr:nth-child(6) td:first-child:before{
+  padding-left:30px;
+  content:"";
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-categoria___bd287fbdd09631b7e4ef68ed18f721bf.jpg) no-repeat left center scroll transparent;
+}
+.specificationsTable tbody tr:nth-child(7) td:first-child:before{
+  padding-left:30px;
+  content:"";
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-rms___ecd17a8d263b4b22a7bb2cf9aba05bbf.jpg) no-repeat left center scroll transparent;
+}
+.pointerEventsNone{display: none;}
+.specificationsTable td a{
+  padding: 10px 10px 10px 25px;
+  display: inline-block;
+  background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/pdf___160722d….png) no-repeat 3px center scroll #00abb4;
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 15px;
+  text-decoration: none;  
+}
+
+.newsletter .container {
+  padding: 10px 0;
+}
+
+.newsletter label{font-size:20px;}
+.newsletter input{padding-left:5px;}
+
+@media only screen and (min-width: 640px){
+  .newsletter .container {
+    padding: 30px 10px;
+  }
+  .newsletter .form{
+    display: inline-flex;
+    max-width: 100%;
+  }
+  .newsletter label {
+    font-weight: 300;
+    font-size: 30px;
+    color: #fff;
+    width:auto;
+    display:inline-flex;
+    align-items: center;
+  }
+
+  .searchBarIcon{
+    background: #00607f;
+    padding: 10px 30px;
+    color: #fff;
+    margin-right: -17px;
+  }
+
+  .newsletter label:first-child{padding-right:10px;}
+
+  .newsletter .inputGroup{
+    display:inline-flex;
+    width:auto;
+    border: 0;
+    padding:0 0 0 5px;
+  }
+
+  .newsletter .vtex-input{
+    border-radius:0;
+    border:0;
+  }
+  .newsletter input{color: #000;padding:0 5px;width:650px}
+
+  .infoCardContainer--info-card-home .infoCardTextContainer {
+    width: 30%;
+  }
+
+  .infoCardContainer--info-card-home .infoCardImageContainer {
+    width: 70%;
+  }
+
+  .imageElement--storePrint {
+    margin-bottom: 0px;
+    max-height: 600px;
+  }
+
+  h1.productNameContainer .productBrand{
+    font-size: 1em;
+    text-transform: uppercase;
+    color: #4A5E4E;
+  }
+
+  .priceContainer .sellingPriceContainer{margin-bottom: 0;}
+  .priceContainer{align-self: center;}
+  .priceContainer .sellingPriceValue{font-size: 1.25rem;}
+  .shippingContainer{border-top:1px solid #ddd;border-bottom:1px solid #ddd;padding: 1em;position: relative;}
+  .shippingContainer label{width:auto;}
+  .shippingContainer div{margin:0;padding: 0;display: inline-flex;position: relative;}
+  .shippingContainer > div > div{position: absolute;left: 52px;bottom: -17px;}
+  .shippingContainer button{margin-left: 10px;vertical-align: middle;height: 41px;width: 150px;position: relative;z-index: 999;}
+  .shippingContainer *{vertical-align: middle;}
+  .shippingContainer form{position: relative;display: inline-flex;max-width: 550px;overflow: hidden;}
+  .shippingContainer form > div{position: absolute;top:14px;right:20px;}
+  .shippingContainer button div{font-size:1em;text-transform:  lowercase;padding-bottom: 0;text-decoration: underline;}
+  .shippingContainer > button{text-decoration: none;padding-left:5px;padding-right: 5px;}
+  .shippingContainer > button div{text-decoration: none;}
+  .shippingContainer label > span{background: url(https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-shippingCoute___3fb7e5040e39cd85003e46835a6baf98.png) no-repeat left top scroll transparent;display: inline-flex;width: 180px;text-indent: -9999px;height: 40px;}
+  .shippingContainer label input{width:320px;margin-right: 15px;}
+  .shippingContainer label div{display: inline-flex;}
+  .shareContainer{text-align: center;}
+  .shareContainer .shareButtons{justify-content: center;}
+  .carouselGaleryCursor{padding:1em;box-sizing: border-box;border:1px solid #ccc;}
+  .shippingTable{border:1px solid #eee;}
+}

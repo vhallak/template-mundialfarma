@@ -1,0 +1,6 @@
+.product-identifier, .label{
+    font-size: 13px;
+    font-weight: normal;
+    white-space: nowrap;
+    text-transform: uppercase;    
+}

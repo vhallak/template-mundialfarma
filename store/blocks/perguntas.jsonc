@@ -1,0 +1,55 @@
+{
+    "store.custom#perguntas": {
+      "blocks": [
+        "flex-layout.row#content-title-intitucional",
+        "flex-layout.row#content-info-intitucional"
+      ]
+    },
+    "flex-layout.row#content-title-intitucional":{
+        "children":[
+            "rich-text#title-intitucional"
+        ]
+    },
+    "rich-text#title-intitucional":{
+        "props":{
+            "text":"[PERGUNTAS-FREQUENTES]", // Perguntas frequentes
+            "blockClass":"title-default"
+        }
+    },
+    "flex-layout.row#content-info-intitucional":{
+        "children":[
+            "rich-text#title-section", // PAGAMENTO
+            "flex-layout.col#section-block-01" // Sessão formas de pagamento aceitas
+        ],
+        "props":{
+            "blockClass":"section-questions"
+        }
+    },
+    // Título da sessão de dúvida
+        "rich-text#title-section":{
+            "props":{
+                "text":"[PAGAMENTO]",
+                "blockClass":"title-section"
+            }
+        },
+    // Grupo de dúvida
+        "flex-layout.col#section-block-01":{
+            "children":[
+                "rich-text#section-block-title",
+                "rich-text#section-block-text"
+            ]
+        },
+        "rich-text#section-block-title":{
+            "props":{
+                "text":"[Formas de pagamento aceitas]",
+                "blockClass": "title-section-block"
+            }
+        },
+        "rich-text#section-block-text":{
+            "props":{
+                "text":"[DESCRIÇÃO DA DÚVIDA AQUI]",
+                "blockClass":"text-section-block"
+            }
+        }
+
+}    

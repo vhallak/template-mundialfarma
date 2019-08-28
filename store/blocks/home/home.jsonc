@@ -1,0 +1,162 @@
+{
+  "store.home": {
+    "blocks": [
+      "carousel#home",
+      /* You can make references to blocks defined in other files.
+       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "flex-layout.row#deals",
+      "shelf#showcase01",
+      "flex-layout.row#shelfbanner",
+      "shelf#showcase02"
+      // "info-card#home",
+      // "newsletter"
+    ]
+  },
+
+  "carousel#home": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner01___35502d7343f4ac84311b6ddda007ce02.jpg",
+          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
+          "description": "Banner 001"
+        },
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner02___fe6a2511bb8b5a3f2e27b8eedbbc084b.jpg",
+          "mobileImage": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/002___e6e93fb70b233b06853a7640af5c049f.jpg",
+          "description": "Banner 002"
+        }
+      ],
+      "height": 350,
+      "showArrows": true,
+      "showDots": true
+    }
+  },
+
+  // Showcase 01
+  "shelf#showcase01":{
+    "blocks":[
+      "product-summary.shelf"
+    ],
+    "props":{
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "dots":true,
+        "titleText": "Medicamentos Especiais"
+      }      
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-image":{
+    "props":{
+      "showBadge":false
+    }
+  },
+  "product-summary-buy-button":{
+    "props":{
+      "buyButtonText":"Comprar"
+    }
+  },
+  "product-summary-price":{
+    "props":{
+      "showLabels":false
+    }
+  },
+  // Banner middle showCase
+  "flex-layout.row#shelfbanner":{
+    "children":[
+      "image#shelfmiddlebanner"
+    ]
+  },
+  "image#shelfmiddlebanner":{
+    "props":{
+      "src":"https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner03___04ae05a51b8784f05c9e60d7af6afb54.jpg",
+      "alt":"Banner meio",
+      "blockClass":"bannerMiddle"
+    }
+  },
+  // Showcase 02
+  "shelf#showcase02":{
+    "blocks":[
+      "product-summary.shelf#home2"
+    ],
+    "props":{
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "scroll": "BY_PAGE",
+        "arrows": false,
+        "dots":true,
+        "titleText": "**Produtos em destaque**"
+      }      
+    }
+  },
+  "product-summary.shelf#home2": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-image":{
+    "props":{
+      "showBadge":false
+    }
+  },
+  "product-summary-buy-button":{
+    "props":{
+      "buyButtonText":"Comprar"
+    }
+  },
+  "product-summary-price":{
+    "props":{
+      "showLabels":false
+    }
+  }
+/*
+  "info-card#home": {
+    "props": {
+      "id": "info-card-home",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
+      "headline": "Clearance Sale",
+      "callToActionText": "DISCOVER",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-home",
+      "textAlignment": "center"
+    }
+  },
+  */
+
+// Newsletter
+
+// "newsletter":{
+//   "props":{
+//     "label":"Assine nossa newsletter!",
+//     "placeholder":"Seu email",
+//     "submit":"quero receber",
+//     "confirmationTitle":"Obrigado",
+//     "confirmationText":"Seu email foi registrado"
+//   }
+// }
+
+
+
+}

@@ -1,0 +1,576 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "rich-text#whatsapp",
+      "newsletter",
+      "footer-row#1-desktop",
+      "footer-row#2-desktop",
+      "footer-row#3-desktop"
+    ]
+  },
+  "rich-text#whatsapp":{
+    "props":{
+      "text": "[whatsApp](https://api.whatsapp.com/send?phone=5531988817737&text=&source=&data=?target=_blank)",
+      "blockClass":"whatsapp"
+    }
+  },
+
+  "newsletter":{
+    "props":{
+      "label":"Assine nossa newsletter!",
+      "placeholder":"Seu email",
+      "submit":"quero receber",
+      "confirmationTitle":"Obrigado",
+      "confirmationText":"Seu email foi registrado"
+    }
+  },
+
+  // Footer-row-1
+  "footer-row#1-desktop": {
+    "children": [
+      "flex-layout.row#footer"
+    ]
+  },
+  "footer-row#2-desktop": {
+    "children": [
+      "flex-layout.row#footer2"
+    ]
+  },
+  "footer-row#3-desktop": {
+    "children": [
+      "flex-layout.row#footer3"
+    ]
+  },  
+
+// Conteúdo
+
+  "flex-layout.row#footer":{
+    "children":[
+      "flex-layout.col#footerCol1",
+      "flex-layout.col#footerCol2",
+      "flex-layout.col#footerCol3",
+      "flex-layout.col#footerCol4"
+    ],
+    "props":{
+      "blockClass":"borderFooter"
+    }
+  },
+
+  "flex-layout.row#footer2":{
+    "children":[
+      "flex-layout.col#footer2Col1",
+      "footer-spacer",
+      "flex-layout.col#footer2Col2",
+      "footer-spacer",
+      "flex-layout.col#footer2Col3"
+    ],
+    "props":{
+      "blockClass":"contentFooter2"
+    }
+  },  
+
+  "flex-layout.row#footer3":{
+    "children":[
+      "flex-layout.col#footer3Col1"
+    ]
+  },  
+
+  // Footer Col 1
+  "flex-layout.col#footerCol1":{
+    "children":[
+      "rich-text#institucional",
+      "rich-text#sobreEmpresa",
+      "rich-text#segurancaFooter",
+      "rich-text#politica",
+      "rich-text#trocasEdevolucoes",
+      "rich-text#informacoesImportantes",
+      // "rich-text#faleConosco",
+      "rich-text#perguntasFrequentes"
+    ],
+    "props":{
+      "blockClass": "footer-contentInstitucional"
+    }
+  }, 
+        "rich-text#institucional":{
+          "props":{
+            "text":"INSTITUCIONAL",
+            "blockClass":"footer-title"
+          }
+        },
+        "rich-text#sobreEmpresa":{
+          "props":{
+            "text":"[Sobre a empresa](/about-us)",
+            "blockClass":"footer-links"
+          }
+        },
+        "rich-text#segurancaFooter":{
+          "props":{
+            "text":"[Segurança](/security)",
+            "blockClass":"footer-links"
+          }
+        },
+        "rich-text#politica":{
+          "props":{
+            "text":"[Política](/politica)",
+            "blockClass":"footer-links"
+          }
+        },
+        "rich-text#trocasEdevolucoes":{
+          "props":{
+            "text":"[Trocas e devoluções](/trocas-devolucoes)",
+            "blockClass":"footer-links"
+          }
+        },
+        "rich-text#informacoesImportantes":{
+          "props":{
+            "text":"[Informações importantes](/informacoes-importantes)",
+            "blockClass":"footer-links"
+          }
+        },
+        // "rich-text#faleConosco":{
+        //   "props":{
+        //     "text":"[Fale conosco](/fale-conosco)",
+        //     "blockClass":"footer-links"
+        //   }
+        // },
+        "rich-text#perguntasFrequentes":{
+           "props":{
+             "text":"[Perguntas frequentes](/perguntas)",
+             "blockClass":"footer-links"
+           }
+        },
+
+// Footer Col 2
+
+"flex-layout.col#footerCol2":{
+  "children":[
+    "rich-text#nossasVantagens",
+    "rich-text#footer-entrega",
+    "rich-text#footer-parcelamento",
+    "rich-text#footer-seguranca"
+  ],
+  "props":{
+    "blockClass":"footer-content2"
+  }
+},
+        "rich-text#nossasVantagens":{
+          "props":{
+            "text":"NOSSAS VANTAGENS",
+            "blockClass":"footer-title"
+          }
+        },
+        "rich-text#footer-entrega":{
+          "props":{
+            "text":"![Entrega para todo o Brasil](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-shipping___54d6786267049088fa665cc1a6831c98.png) Entrega para todo o Brasil",
+            "blockClass":"footer-entrega"
+          }
+        },
+        "rich-text#footer-parcelamento":{
+          "props":{
+            "text":"![Parcele em até 3x sem juros](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-wallet___95380df7f8e412af43a3f8de7e48c80a.png) Parcele em até 3x sem juros",
+            "blockClass":"footer-parcelamento"
+          }
+        },
+        "rich-text#footer-seguranca":{
+          "props":{
+            "text":"![Site 100% seguro](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-security___11eee6d903642579568f1dd38860f6c5.png) Site 100% seguro",
+            "blockClass":"footer-seguranca"
+          }
+        },
+
+// Footer Col 3
+
+"flex-layout.col#footerCol3":{
+  "children":[
+    "rich-text#centralAtendimento",
+    "rich-text#footer-endereco",
+    "rich-text#footer-telefone",
+    "rich-text#footer-whatsapp",
+    "rich-text#footer-horario"
+  ],
+  "props":{
+    "blockClass":"footer-content3"
+  }
+},
+        "rich-text#centralAtendimento":{
+          "props":{
+            "text":"CENTRAL DE ATENDIMENTO",
+            "blockClass":"footer-title"
+          }
+        },
+        "rich-text#footer-endereco":{
+          "props":{
+            "text":"![alt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-pin-footer___75891396995d4eccbc37c48476f9c929.png) Rod Januário Carneiro 3380, Loja 03/04 - Bosque residencial do Jambreiro - Nova Lima - MG",
+            "blockClass":"footer-endereco"
+          }
+        },
+        "rich-text#footer-telefone":{
+          "props":{
+            "text":"![telefone](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-phone-footer___18f873f62402285b425ca12a13c5743b.png) (31) 3581-7737",
+            "blockClass":"footer-telefone"
+          }
+        },
+        "rich-text#footer-whatsapp":{
+          "props":{
+            "text":"![whatsapp](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-whatsapp-footer___463b541645cc6bb7f56e7e1fd896be3b.png) (31) 98881-7737",
+            "blockClass":"footer-whatsapp"
+          }
+        },        
+        "rich-text#footer-horario":{
+          "props":{
+            "text":"![horário](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-clock-footer___d9fc490193211e6c91996794b3f323a4.png) Segunda a sexta-feira de 08h00 as 12h00 (exceto feriados)",
+            "blockClass":"footer-horario"
+          }
+        },        
+
+// Footer Col 4
+
+"flex-layout.col#footerCol4":{
+  "children":[
+    "rich-text#farmaceuticoResponsavel",
+    "rich-text#footer-responsavel"
+  ],
+  "props":{
+    "blockClass":"footer-content4"
+  }
+},
+        "rich-text#farmaceuticoResponsavel":{
+          "props":{
+            "text":"FARMACÊUTICO RESPONSÁVEL",
+            "blockClass":"footer-title"
+          }
+        },
+        "rich-text#footer-responsavel":{
+          "props":{
+            "text":"Ana Carolina Gonçalves<br/>CRF/MG: 35722<br/>CMVS: 002920/2018<br/>Alvará de Funcionamento da ANVISA (AFE):<br/>25351.365818/2018-53<br/>Razão Social: F.R. de Freitas<br/>CNPJ: 08.002.459/0004-89<br/><br/>Telefones:<br/>Conselho Regional de Farmácia: (31)3218-1000<br/>Vigilância Estadual (MG): (31) 3215-7362",
+            "blockClass":"footer-responsavel"
+          }
+        }, 
+
+"flex-layout.col#footer2Col1":{
+  "children":[
+    "rich-text#siganos",
+    "social-networks"
+  ],
+  "props":{
+    "blockClass":"content-footerRow2"
+  }
+},
+        "rich-text#siganos":{
+          "props":{
+            "text":"SIGA NOS!",
+            "blockClass":"footer-title"
+          }
+        },
+        "social-networks": {
+          "props": {
+            "socialNetworks": [
+              {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/vtexonline/"
+              },
+              {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/vtextruecloud/"
+              }
+            ]
+          }
+        },
+
+"flex-layout.col#footer2Col2":{
+  "children":[
+    "rich-text#pagamento",
+    "image#flagPayments"
+  ]
+},        
+  "rich-text#pagamento":{
+    "props":{
+      "text":"PAGAMENTO",
+      "blockClass":"footer-title"
+    }
+  },
+  "image#flagPayments":{
+    "props":{
+      "alt":"Formas de pagamento",
+      "src":"https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/flag-payments___1988dec72f5caa1c8c700a68de4477a1.png"
+    }
+  },
+
+  // Footer 3
+  "flex-layout.col#footer2Col3":{
+    "children":[
+      "rich-text#seguranca",
+      "flex-layout.row#certificados"
+    ]
+  },        
+    "rich-text#seguranca":{
+      "props":{
+        "text":"SEGURANÇA",
+        "blockClass":"footer-title"
+      }
+    },  
+    "flex-layout.row#certificados":{
+      "children":[
+        "flex-layout.col#certificadoAnvisa",
+        "flex-layout.col#certificadoLetsEncrypt",
+        "flex-layout.col#certificadoGoogle"
+      ]
+    },
+    "flex-layout.col#certificadoAnvisa":{
+      "children":[
+        "rich-text#anvisa"
+      ]
+    },
+    "rich-text#anvisa":{
+      "props":{
+        "text":"![anvisa](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-anvisa___43d8fc0d2a66f769f9ceb8cadeb3f5bb.png)"
+      }
+    },
+    "rich-text#letsEncrypt":{
+      "props":{
+        "text":"![lets Encrypt](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-letsEncrypt___76b55795605e189b1e6c4416f2587e16.png)"
+      }
+    },
+    "flex-layout.col#certificadoLetsEncrypt":{
+      "children":[
+        "rich-text#letsEncrypt"
+      ]
+    },    
+    "flex-layout.col#certificadoGoogle":{
+      "children":[
+        "rich-text#google"
+      ]
+    },         
+    "rich-text#google":{
+      "props":{
+        "text":"![Google](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-google___b4118dcafc4103591c63352301abf8d0.png)"
+      }
+    },        
+
+"flex-layout.col#footer3Col1":{
+  "children":[
+    "flex-layout.row#footerInfo"
+  ]
+},
+
+      "flex-layout.row#footerInfo":{
+        "children":[
+          "flex-layout.col#footerTextInfo",
+          "flex-layout.col#footerLinkDev"
+        ],
+        "props":{
+          "blockClass":"footerInfo-content"
+        }        
+      },
+      
+      "flex-layout.col#footerTextInfo":{
+        "children":[
+          "rich-text#direitos",
+          "rich-text#direitosReservados"
+        ]
+      },
+      "rich-text#direitos":{
+        "props":{
+          "text":"(A) As informações incluídas neste site não devem ser utilizadas para automedicação e não substituem, em hipótese alguma, as orientações prestadas pelo profissional da área médica. Somente o médico está apto a diagnosticar qualquer problema de saúde e prescrever o tratamento adequado.<br/>(B) É um medicamento. Seu uso pode trazer riscos. Procure o médico e o farmacêutico. Leia a bula.<br/>(C) Todos os medicamentos sob prescrição necessitam de apresentação de receita médica e só serão dispensados mediante a apresentação da receita e devida averiguação por parte do farmacêutico. No qual deverá ser enviada pelo email: sac@mundialfarma.com.br ou pelo whatsapp (031) 98881-7737. Em caso de dúvidas entre em contato com o farmacêutico. Qualquer dúvida sobre prescrição médica e produtos divulgados em nosso site, entre em contato através do nosso atendimento ao cliente ou dirigir-se a nossa loja, contamos com um profissional da área farmacêutica para maiores esclarecimentos.<br/>(D) Os preços e condições de pagamento contidos neste site são exclusivos para compras efetuadas pela loja online. Imagens meramente ilustrativas de acordo com a legislação vigente.<br/>(E) Todos os pedidos estão sujeitos à confirmação dos dados cadastrais e de entrega. Esta confirmação, quando necessária, será feita através de contato telefônico e visa garantir a sua segurança.<br/>",
+          "blockClass":"text-direitos"
+        }
+      },
+      "rich-text#direitosReservados":{
+        "props":{
+          "text":"® MUNDIAL FARMA. TODOS OS DIREITOS RESERVADOS.",
+          "blockClass":"text-direitosReservados"
+        }
+      },
+      "flex-layout.col#footerLinkDev":{
+        "children":[
+          "flex-layout.row#contentLinks"
+        ]
+      },
+      "flex-layout.row#contentLinks":{
+        "children":[
+          "image#linkVtex"
+        ]
+      },
+      "image#linkVtex":{
+        "props":{
+          "src":"https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
+          "maxWidth":"120px",
+          "alt":"Vtex",
+          "link":"https://www.vtex.com.br"
+        }
+      },     
+
+
+
+
+// Footer mobile
+
+
+
+  "footer-layout.mobile": {
+    "children": [
+      "newsletter",
+      "footer-row#1-mobile",
+      "footer-row#2-mobile",
+      "footer-row#3-mobile",
+      "footer-row#4-mobile"
+    ]
+  },
+  "footer-row#1-mobile": {
+    "children": [
+      "image#flagPayments",
+      "footer-spacer",
+      "social-networks"
+    ],
+    "props": {
+      "blockClass": "payment-methods"
+    }
+  },
+  "footer-row#2-mobile":{
+    "children": [
+      "flex-layout.row#actionsFooter"
+    ]
+  },
+  "flex-layout.row#actionsFooter":{
+    "children":[
+      "flex-layout.col#footerCol1",
+      "flex-layout.col#footerCol2"
+    ],
+    "props":{
+      "blockClass":"mobileCol"
+    }
+  }, 
+  "flex-layout.col#footerCol1":{
+    "children":[
+      "rich-text#institucional",
+      "rich-text#sobreEmpresa",
+      "rich-text#segurancaFooter",
+      "rich-text#politica",
+      "rich-text#trocasEdevolucoes",
+      "rich-text#informacoesImportantes",
+      // "rich-text#faleConosco",
+      "rich-text#perguntasFrequentes"      
+    ],
+    "props":{
+      "blockClass": "footer-contentInstitucional"
+    }
+  },
+    "rich-text#institucional":{
+      "props":{
+        "text":"INSTITUCIONAL",
+        "blockClass":"footer-title"
+      }
+    },
+    "rich-text#sobreEmpresa":{
+      "props":{
+        "text":"[Sobre a empresa](/about-us)",
+        "blockClass":"footer-links"
+      }
+    },
+    "rich-text#segurancaFooter":{
+      "props":{
+        "text":"[Segurança](/security)",
+        "blockClass":"footer-links"
+      }
+    },
+    "rich-text#politica":{
+      "props":{
+        "text":"[Política](/politica)",
+        "blockClass":"footer-links"
+      }
+    },
+    "rich-text#trocasEdevolucoes":{
+      "props":{
+        "text":"[Trocas e devoluções](/trocas-devolucoes)",
+        "blockClass":"footer-links"
+      }
+    },
+    "rich-text#informacoesImportantes":{
+      "props":{
+        "text":"[Informações importantes](/informacoes-importantes)",
+        "blockClass":"footer-links"
+      }
+    },  
+    "rich-text#perguntasFrequentes":{
+      "props":{
+        "text":"[Perguntas frequentes](/perguntas)",
+        "blockClass":"footer-links"
+      }
+   },    
+
+
+// coluna 2
+
+"flex-layout.col#footerCol2":{
+  "children":[
+    "rich-text#centralAtendimento",
+    "rich-text#footer-endereco",
+    "rich-text#footer-telefone"
+  ],
+  "props":{
+    "blockClass":"footer-content2"
+  }
+},
+  "rich-text#centralAtendimento":{
+    "props":{
+      "text":"CENTRAL DE ATENDIMENTO",
+      "blockClass":"footer-title"
+    }
+  },
+  "rich-text#footer-endereco":{
+    "props":{
+      "text":"Rod Januário Carneiro 3380, Loja 03/04 - Bosque residencial do Jambreiro - Nova Lima - MG / Segunda a sexta-feira de 08h00 as 12h00 (exceto feriados)",
+      "blockClass":"footer-endereco"
+    }
+  },
+  "rich-text#footer-telefone":{
+    "props":{
+      "text":"(31) 3581-7737 | (31) 98881-7737",
+      "blockClass":"footer-telefone"
+    }
+  },            
+
+// coluna 3
+  "footer-row#3-mobile": {
+    "children": [
+      "rich-text#footer-mobile"
+    ],
+    "props": {
+      "blockClass": "credits"
+    }
+  },
+  "rich-text#footer-mobile": {
+    "props": {
+      "text": "(A) As informações incluídas neste site não devem ser utilizadas para automedicação e não substituem, em hipótese alguma, as orientações prestadas pelo profissional da área médica. Somente o médico está apto a diagnosticar qualquer problema de saúde e prescrever o tratamento adequado.(B) É um medicamento. Seu uso pode trazer riscos. Procure o médico e o farmacêutico. Leia a bula.(C) Todos os medicamentos sob prescrição necessitam de apresentação de receita médica e só serão dispensados mediante a apresentação da receita e devida averiguação por parte do farmacêutico. No qual deverá ser enviada pelo email: sac@mundialfarma.com.br ou pelo whatsapp (031) 98881-7737. Em caso de dúvidas entre em contato com o farmacêutico. Qualquer dúvida sobre prescrição médica e produtos divulgados em nosso site, entre em contato através do nosso atendimento ao cliente ou dirigir-se a nossa loja, contamos com um profissional da área farmacêutica para maiores esclarecimentos.(D) Os preços e condições de pagamento contidos neste site são exclusivos para compras efetuadas pela loja online. Imagens meramente ilustrativas de acordo com a legislação vigente.(E) Todos os pedidos estão sujeitos à confirmação dos dados cadastrais e de entrega. Esta confirmação, quando necessária, será feita através de contato telefônico e visa garantir a sua segurança.",
+      "blockClass": "footer"
+    }
+  },
+
+// Coluna 4
+
+"footer-row#4-mobile":{
+  "children":[
+    "image#linkVtex"
+  ],
+  "props":{
+    "blockClass":"imgVtex"
+  }
+},
+"image#linkVtex":{
+  "props":{
+    "src":"https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/VTEX_Logo.svg%20(2)___c52f88219d5eb3573e9ca1f38901033c.png",
+    "maxWidth":"120px",
+    "alt":"Vtex",
+    "link":"https://www.vtex.com.br"
+  }
+}
+
+
+
+}
