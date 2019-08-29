@@ -17,5 +17,5 @@
 .footerLayout .row{background: #f4f4f4;}
 
 @media only screen and (min-width: 640px) {
-  .footerLayout{padding-top:20px;}
+  .footerLayout{margin-top:20px;}
 }
