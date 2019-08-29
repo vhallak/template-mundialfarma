@@ -94,14 +94,16 @@
       "product-summary.shelf#home2"
     ],
     "props":{
+      "category": "2",
       "orderBy": "OrderByTopSaleDESC",
+      "blockClass":"consult-shelf",
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,
         "scroll": "BY_PAGE",
         "arrows": false,
         "dots":true,
-        "titleText": "**Produtos em destaque**"
+        "titleText": "Produtos em destaque"
       }      
     }
   },
@@ -110,53 +112,26 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ]
+      "product-summary-price"
+      // "product-summary-buy-button"
+    ],
+    "props":{
+      "blockClass":"consult-shelf"
+    }
   },
   "product-summary-image":{
     "props":{
       "showBadge":false
     }
   },
-  "product-summary-buy-button":{
-    "props":{
-      "buyButtonText":"Comprar"
-    }
-  },
+  // "product-summary-buy-button":{
+  //   "props":{
+  //     "buyButtonText":"Comprar",
+  //   }
+  // },
   "product-summary-price":{
     "props":{
       "showLabels":false
     }
   }
-/*
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
-    }
-  },
-  */
-
-// Newsletter
-
-// "newsletter":{
-//   "props":{
-//     "label":"Assine nossa newsletter!",
-//     "placeholder":"Seu email",
-//     "submit":"quero receber",
-//     "confirmationTitle":"Obrigado",
-//     "confirmationText":"Seu email foi registrado"
-//   }
-// }
-
-
-
 }

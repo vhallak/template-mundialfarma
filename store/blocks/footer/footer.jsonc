@@ -141,7 +141,7 @@
         // },
         "rich-text#perguntasFrequentes":{
            "props":{
-             "text":"[Perguntas frequentes](/perguntas)",
+             "text":"[Perguntas frequentes](/questions)",
              "blockClass":"footer-links"
            }
         },
@@ -499,7 +499,7 @@
     },  
     "rich-text#perguntasFrequentes":{
       "props":{
-        "text":"[Perguntas frequentes](/perguntas)",
+        "text":"[Perguntas frequentes](/questions)",
         "blockClass":"footer-links"
       }
    },    

@@ -1,8 +1,10 @@
 {
-    "store.custom#perguntas": {
+    "store.custom#questions": {
       "blocks": [
         "flex-layout.row#content-title-intitucional",
-        "flex-layout.row#content-info-intitucional"
+        "flex-layout.row#content-info-questions",
+        "flex-layout.row#section-block-01-title",
+        "flex-layout.row#section-block-01-text"        
       ]
     },
     "flex-layout.row#content-title-intitucional":{
@@ -16,10 +18,9 @@
             "blockClass":"title-default"
         }
     },
-    "flex-layout.row#content-info-intitucional":{
+    "flex-layout.row#content-info-questions":{
         "children":[
-            "rich-text#title-section", // PAGAMENTO
-            "flex-layout.col#section-block-01" // Sessão formas de pagamento aceitas
+            "rich-text#title-section" // PAGAMENTO
         ],
         "props":{
             "blockClass":"section-questions"
@@ -33,19 +34,23 @@
             }
         },
     // Grupo de dúvida
-        "flex-layout.col#section-block-01":{
+        "flex-layout.row#section-block-01-title":{
             "children":[
-                "rich-text#section-block-title",
-                "rich-text#section-block-text"
+                "rich-text#section-block-01-title"
             ]
         },
-        "rich-text#section-block-title":{
+        "rich-text#section-block-01-title":{
             "props":{
                 "text":"[Formas de pagamento aceitas]",
                 "blockClass": "title-section-block"
             }
         },
-        "rich-text#section-block-text":{
+        "flex-layout.row#section-block-01-text":{
+            "children":[
+                "rich-text#section-block-01-text"
+            ]
+        },        
+        "rich-text#section-block-01-text":{
             "props":{
                 "text":"[DESCRIÇÃO DA DÚVIDA AQUI]",
                 "blockClass":"text-section-block"

@@ -5,7 +5,7 @@
   "store.custom#security":{
     "path":"/security"
   },
-  "store.custom#perguntas":{
-    "path":"/perguntas"
+  "store.custom#questions":{
+    "path":"/questions"
   }
 }
