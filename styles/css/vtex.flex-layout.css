@@ -48,6 +48,7 @@
     position: absolute;
     right:0;
     top: 22%;
+    line-height: 1;
   }
 
   .flexRow--btn-buyProduct button{
