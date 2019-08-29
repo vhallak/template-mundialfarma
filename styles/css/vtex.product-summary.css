@@ -12,6 +12,24 @@
     border-radius: 0;
     transition: 0.2s;
 }
+.buyButton button:disabled{
+    background: #00abb5;
+}
+.buyButton button:disabled div{
+    color: transparent;
+    position: relative;
+    padding: 0;
+}
+.buyButton button:disabled div:before{
+    content:"CONSULTE-NOS";
+    color:#fff;
+    font-size:1rem;
+    position: absolute;
+}
+.buyButton button div{
+    white-space: initial;
+}
+
 
 .imageNormal{
     padding:1em;
