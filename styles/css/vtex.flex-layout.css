@@ -36,6 +36,18 @@
   margin: 0;
 }
 
+.flexRow--block-questions .stretchChildrenWidth{
+  width: 100% !important;
+  display:flex;
+}
+
+.flexRow--block-questions .stretchChildrenWidth:first-child:hover{
+  background:#eee;
+  display:inline-flex !important;
+}
+
+.flexRow--block-questions .stretchChildrenWidth:first-child:hover + .flexRow--block-questions .stretchChildrenWidth{display:none}
+
 @media only screen and (min-width: 640px) {
   .flexRow--product-contentPrices{
     margin: 25px 0;
