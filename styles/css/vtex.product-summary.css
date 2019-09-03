@@ -39,7 +39,8 @@
 .nameContainer{
     text-align: left;
     padding-top:0;
-    max-height: 82px;
+    max-height: 140px;
+    overflow: hidden;
     justify-content: left;
     padding:0 1.5em;
 }

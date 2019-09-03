@@ -329,7 +329,7 @@
     },
     "rich-text#anvisa":{
       "props":{
-        "text":"![anvisa](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-anvisa___43d8fc0d2a66f769f9ceb8cadeb3f5bb.png)"
+        "text":"[![Anvisa](https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-anvisa___43d8fc0d2a66f769f9ceb8cadeb3f5bb.png)](http://portal.anvisa.gov.br/?target=_blank)"
       }
     },
     "rich-text#letsEncrypt":{

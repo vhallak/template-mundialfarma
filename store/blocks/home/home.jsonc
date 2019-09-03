@@ -94,7 +94,6 @@
       "product-summary.shelf#home2"
     ],
     "props":{
-      "category": "2",
       "orderBy": "OrderByTopSaleDESC",
       "blockClass":"consult-shelf",
       "productList": {
@@ -112,8 +111,8 @@
       "product-summary-image",
       "product-summary-name",
       "product-summary-space",
-      "product-summary-price"
-      // "product-summary-buy-button"
+      "product-summary-price",
+      "product-summary-buy-button"
     ],
     "props":{
       "blockClass":"consult-shelf"
