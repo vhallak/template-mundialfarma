@@ -84,7 +84,9 @@
     },
     "children": [
       "menu-item#materiais-cateteres",
-      "menu-item#materiais-pediatrico"
+      "menu-item#agulhas-para-biopsias",
+      "menu-item#materiais-pediatrico",
+      "menu-item#neonatal"
     ]
   },
   "menu-item#materiais-cateteres": {
@@ -102,6 +104,36 @@
       }
     }
   },
+  "menu-item#agulhas-para-biopsias": {
+    "props": {
+      "id": "menu-item-agulhas-para-biopsias",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais/agulhas-cirurgicas",
+        "noFollow": true,
+        "tagTitle": "agulhas",
+        "text": "Agulhas para Biópsia"
+      }
+    }
+  },
+  "menu-item#neonatal": {
+    "props": {
+      "id": "menu-item-neonatal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/materiais/neonatal",
+        "noFollow": true,
+        "tagTitle": "neonatal",
+        "text": "Neonatal"
+      }
+    }
+  },    
   "menu-item#materiais-pediatrico": {
     "props": {
       "id": "menu-item-materiais-pediatrico",
