@@ -94,6 +94,7 @@
       "product-summary.shelf#home2"
     ],
     "props":{
+      "category": "80",
       "orderBy": "OrderByTopSaleDESC",
       "blockClass":"consult-shelf",
       "productList": {
