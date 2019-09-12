@@ -19,7 +19,7 @@
 }
 .flexRow--product-contentPrices{border-top:1px solid #ddd;border-bottom: 1px solid #ddd;position: relative;min-height: 105px;}
 .flexRow--btn-buyProduct button{
-  background: #83c44c;
+  background: url(https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-cart___41afaf1….png) no-repeat 95% center scroll #83c44c;
   color: #fff;
   border-radius: 0;
   text-transform: uppercase;

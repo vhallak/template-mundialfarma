@@ -32,7 +32,7 @@
   },
   "flex-layout.col#product-image": {
     "props": {
-      "width": "60%",
+      "width": "40%",
       "rowGap": 0,
       "blockClass":"product-imageContent"
     },

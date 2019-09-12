@@ -187,6 +187,7 @@
   position: fixed;
   bottom: 15px;
   left: 15px;
+  z-index: 9999;
 }
 
 .container--whatsapp a{

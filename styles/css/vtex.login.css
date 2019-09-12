@@ -4,7 +4,10 @@
     height: 24px;
     display: block;    
     text-indent: -9999px;
-    background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-user___019b7acd57fb61c39dcfda264844214a.png) no-repeat center center scroll transparent;}
+    background: url(https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/icon-user___019b7acd57fb61c39dcfda264844214a.png) no-repeat center center scroll transparent;
+}
+
+button:hover{background:#00abb5;}
 
 
 @media only screen and (min-width: 640px) {
