@@ -13,3 +13,6 @@
 
 .arrowRight svg{margin-right:20px;}
 .arrowLeft svg{margin-left:20px;}
+
+.containerImg > div{max-height:650px !important;}
+.container li{max-height:650px !important;}
