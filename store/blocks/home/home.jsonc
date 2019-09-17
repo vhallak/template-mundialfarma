@@ -7,7 +7,9 @@
       "flex-layout.row#deals",
       "shelf#showcase01",
       "flex-layout.row#shelfbanner",
-      "shelf#showcase02"
+      "shelf#showcase02",
+      "flex-layout.row#marcas",
+      "carousel#marcas"
       // "info-card#home",
       // "newsletter"
     ]
@@ -133,5 +135,40 @@
     "props":{
       "showLabels":false
     }
-  }
+  },
+
+  "flex-layout.row#marcas":{
+    "children":[
+      "rich-text#titulo-marcas"    
+    ]
+  },
+
+  "rich-text#titulo-marcas":{
+    "props":{
+      "text":"Parceiros",
+      "blockClass":"titleMarcas"
+    }
+  },
+  "carousel#marcas": {
+    "props": {
+      "autoplay": true,
+      "banners": [
+        {
+          "image": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/marcas-01___2d88ba611885ac37dc3d06240c8673df.png",
+          "mobileImage": "",
+          "description": "Marcas"
+        },
+        {
+          "image": "https://mundialfarma.vteximg.com.br/assets/vtex.file-manager-graphql/images/marcas-02___2ac7f91ba3662eb646bf0260d704a26b.png",
+          "mobileImage": "",
+          "description": "Marcas"
+        }
+      ],
+      "height": 350,
+      "showArrows": true,
+      "showDots": false
+    }
+  } 
+
+
 }
