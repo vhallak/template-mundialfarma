@@ -49,7 +49,10 @@
         "scroll": "BY_PAGE",
         "arrows": false,
         "dots":true,
-        "titleText": "Medicamentos Especiais"
+        "titleText": "Medicamentos Especiais",
+        "summary":{
+          "showLabels":true
+        }
       }      
     }
   },
@@ -105,7 +108,10 @@
         "scroll": "BY_PAGE",
         "arrows": false,
         "dots":true,
-        "titleText": "Produtos em destaque"
+        "titleText": "Produtos em destaque",
+        "summary":{
+          "showLabels":true
+        }        
       }      
     }
   },
