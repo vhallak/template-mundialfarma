@@ -55,3 +55,10 @@
 .containerInline .imageContainer img{
     padding: 0;
 }
+.productBrand{
+    font-size: 15px;
+    font-weight: 600;
+    color: #136b89;
+    display: block;
+    line-height: 23px; 
+}
