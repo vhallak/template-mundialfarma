@@ -14,7 +14,6 @@
       // "newsletter"
     ]
   },
-
   "carousel#home": {
     "props": {
       "autoplay": false,
@@ -35,25 +34,24 @@
       "showDots": true
     }
   },
-
   // Showcase 01
-  "shelf#showcase01":{
-    "blocks":[
+  "shelf#showcase01": {
+    "blocks": [
       "product-summary.shelf"
     ],
-    "props":{
+    "props": {
       "orderBy": "OrderByTopSaleDESC",
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,
         "scroll": "BY_PAGE",
         "arrows": false,
-        "dots":true,
+        "dots": true,
         "titleText": "Medicamentos Especiais",
-        "summary":{
-          "showLabels":true
+        "summary": {
+          "showLabels": true
         }
-      }      
+      }
     }
   },
   "product-summary.shelf": {
@@ -65,54 +63,53 @@
       "product-summary-buy-button"
     ]
   },
-  "product-summary-image":{
-    "props":{
-      "showBadge":false
+  "product-summary-image": {
+    "props": {
+      "showBadge": false
     }
   },
-  "product-summary-buy-button":{
-    "props":{
-      "buyButtonText":"Comprar"
-    }
-  },
-  "product-summary-price":{
-    "props":{
-      "showLabels":false
+  "product-summary-buy-button": {
+    "props": {
+      "buyButtonText": "Comprar"
     }
   },
   // Banner middle showCase
-  "flex-layout.row#shelfbanner":{
-    "children":[
-      "image#shelfmiddlebanner"
+  "flex-layout.row#shelfbanner": {
+    "children": [
+      "carousel#shelfmiddlebanner"
     ]
   },
-  "image#shelfmiddlebanner":{
-    "props":{
-      "src":"https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner03___04ae05a51b8784f05c9e60d7af6afb54.jpg",
-      "alt":"Banner meio",
-      "blockClass":"bannerMiddle"
+  "carousel#shelfmiddlebanner": {
+    "props": {
+      "banners": [
+        {
+          "image": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner03___04ae05a51b8784f05c9e60d7af6afb54.jpg",
+          "mobileImage": "https://storecomponents.vteximg.com.br/assets/vtex.file-manager-graphql/images/banner03___04ae05a51b8784f05c9e60d7af6afb54.jpg",
+          "description": "Banner 001"
+        }
+      ]
     }
   },
   // Showcase 02
-  "shelf#showcase02":{
-    "blocks":[
+  "shelf#showcase02": {
+    "blocks": [
       "product-summary.shelf#home2"
     ],
-    "props":{
+    "props": {
       "category": "80",
       "orderBy": "OrderByTopSaleDESC",
-      "blockClass":"consult-shelf",
+      "blockClass": "consult-shelf",
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,
         "scroll": "BY_PAGE",
         "arrows": false,
-        "dots":true,
+        "dots": true,
         "titleText": "Produtos em destaque",
-        "summary":{
-          "showLabels":true
-        }        
-      }      
+        "summary": {
+          "showLabels": true
+        }
+      }
     }
   },
   "product-summary.shelf#home2": {
@@ -123,13 +120,13 @@
       "product-summary-price",
       "product-summary-buy-button"
     ],
-    "props":{
-      "blockClass":"consult-shelf"
+    "props": {
+      "blockClass": "consult-shelf"
     }
   },
-  "product-summary-image":{
-    "props":{
-      "showBadge":false
+  "product-summary-image": {
+    "props": {
+      "showBadge": false
     }
   },
   // "product-summary-buy-button":{
@@ -137,22 +134,20 @@
   //     "buyButtonText":"Comprar",
   //   }
   // },
-  "product-summary-price":{
-    "props":{
-      "showLabels":false
+  "product-summary-price": {
+    "props": {
+      "showLabels": false
     }
   },
-
-  "flex-layout.row#marcas":{
-    "children":[
-      "rich-text#titulo-marcas"    
+  "flex-layout.row#marcas": {
+    "children": [
+      "rich-text#titulo-marcas"
     ]
   },
-
-  "rich-text#titulo-marcas":{
-    "props":{
-      "text":"Parceiros",
-      "blockClass":"titleMarcas"
+  "rich-text#titulo-marcas": {
+    "props": {
+      "text": "Parceiros",
+      "blockClass": "titleMarcas"
     }
   },
   "carousel#marcas": {
@@ -174,7 +169,5 @@
       "showArrows": true,
       "showDots": false
     }
-  } 
-
-
+  }
 }
