@@ -3,6 +3,7 @@
     "children": [
       "flex-layout.row#product-breadcrumb",
       "flex-layout.row#product-main",
+      "product-description",  
       "shelf.relatedProducts"
     ]
   },
@@ -61,7 +62,6 @@
     "children": [
       "product-name",
       "product-identifier.product",
-      // "product-description",  
       "product-highlights",
       "product-specifications",
       "flex-layout.row#product-boxAction",

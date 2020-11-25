@@ -117,9 +117,19 @@
 .installmentsPrice, .savingPrice{
   padding-left: .25rem;
 }
-.productDescriptionContainer{margin:20px 0;}
-.productDescriptionContainer h2{display:none;}
+.productDescriptionContainer{margin:20px 20px;}
+.productDescriptionTitle{
+    color: #fff;
+    background: #00abb5;
+    padding: 10px;
+    text-transform: uppercase;
+    margin: 0px;
+}
 
+.productDescriptionText{
+  padding: 10px;
+  background: #eaeaea;
+}
 /* Especificações */
 .specificationsTableContainer{padding: 0;}
 .specificationsTableContainer .specificationsTitle{display:none;}
